@@ -17,5 +17,5 @@ await foreach(path, fn, args)
 ##### Node
 
 ```
-const { foreach } = require('guld-fs-foreach')
+const foreach = require('guld-fs-foreach')
 ```
