@@ -1,6 +1,6 @@
 {
   "name": "guld-fs-foreach",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Run command for each file and/or directory in the given directory.",
   "main": "index.js",
   "scripts": {
