@@ -1,6 +1,6 @@
 {
   "name": "guld-fs-foreach",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Run command for each file and/or directory in the given directory.",
   "main": "index.js",
   "scripts": {
@@ -15,8 +15,8 @@
   "author": "isysd",
   "license": "MIT",
   "dependencies": {
-    "guld-env": "^1.0.8",
-    "guld-spawn": "^1.0.3",
+    "guld-env": "^1.0.9",
+    "guld-spawn": "^1.0.4",
     "pify": "^3.0.0"
   },
   "devDependencies": {
