@@ -15,8 +15,8 @@
   "author": "isysd",
   "license": "MIT",
   "dependencies": {
-    "guld-env": "^1.0.11",
-    "guld-spawn": "^1.0.4",
+    "guld-env": "^1.0.12",
+    "guld-spawn": "^1.0.5",
     "pify": "^3.0.0"
   },
   "devDependencies": {
