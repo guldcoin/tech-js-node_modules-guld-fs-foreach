@@ -16,7 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "guld-env": "^1.0.14",
-    "guld-spawn": "^1.0.9",
+    "guld-spawn": "^2.0.0",
     "pify": "^3.0.0"
   },
   "devDependencies": {
