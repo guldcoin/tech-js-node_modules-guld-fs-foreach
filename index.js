@@ -1,10 +1,10 @@
-const spawn = require('guld-spawn')
+const { getSpawn } = require('guld-spawn')
 const { getJS } = require('guld-env')
 const path = require('path')
 
 async function foreach (p, cmd, args) {
   if (getJS().startsWith('node')) {
-    var found = await spawn('find', '', [path.resolve(p), '-type', 'f', ...args], true)
+    var found = await getSpawn()('find', '', [path.resolve(p), '-type', 'f', ...args], true)
     found.split('\n').forEach(async f => {
       if (f === '') return
       return cmd(f)
