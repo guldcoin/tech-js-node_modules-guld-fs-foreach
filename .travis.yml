@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - "10"
+sudo: false
+before_install:
+  mkdir -p ~/tech/js/node_modules;
+  cd ~/tech/js/node_modules;
+  git clone https://bitbucket.org/guld/tech-js-node_modules-guld-fs-foreach guld-fs-foreach;
+install:
+  cd ~/tech/js/node_modules/guld-fs-foreach;
+  npm i;
+script:
+  cd ~/tech/js/node_modules/guld-fs-foreach;
+  npm run test:lint;
+cache:
+  directories:
+    - node_modules
+
